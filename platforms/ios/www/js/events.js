@@ -68,7 +68,7 @@ function start() {
         );
 
         function addNewDoc(promptResult) {
-            collapseAllDocs();
+            collapseAllDocs(true);
             var cleaned_prompt = promptResult.input1.replace(appConfig.docNameAllowedCharacter, '');
             var $new_doc = $("<span/>").append(getDocHtml(cleaned_prompt, [], true));
 
@@ -382,9 +382,9 @@ function bindDocClicks() {
 
 
 
-function collapseAllDocs() {
+function collapseAllDocs(removeAlsoWasSelectedClass) {
 
-        collapseThisDoc($(".NEW-doc.selected"));
+        collapseThisDoc($(".NEW-doc.selected"),removeAlsoWasSelectedClass);
 
 }
 
@@ -406,7 +406,7 @@ function expandThisDoc($doc,forceDocToExpand){
 
 }
 
-function collapseThisDoc($doc){
+function collapseThisDoc($doc,removeAlsoWasSelectedClass){
     if($doc.is(".selected")){
         $doc.find(".NEW-pic").each(function(){
             $(this).attr("src","imm/new_pics.png");
@@ -417,6 +417,8 @@ function collapseThisDoc($doc){
         });
 
         $doc.removeClass("selected");
+        if(removeAlsoWasSelectedClass)
+            $doc.removeClass("was_selected");
     }
 
 }

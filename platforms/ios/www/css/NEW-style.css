@@ -395,3 +395,7 @@
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
 }
+
+.was_selected{
+    opacity: 0.2;
+}

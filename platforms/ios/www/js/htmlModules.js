@@ -1,7 +1,7 @@
 function getDocHtml(title, pics_array, expanded) {
 
     var selected = (_.isEmpty(pics_array))? "selected" : "";
-        selected = (expanded)? "selected" : "";
+        selected = (expanded)? "selected was_selected" : "";
 
 
 
