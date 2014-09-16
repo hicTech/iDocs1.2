@@ -697,9 +697,6 @@ function hideZoomAreaButtons(){
     $("#zoomArea").find(".NEW-removeThisPicButton").animate({top:"-50px",right:"-50px"},"easeOutBounce");
 }
 
-
-
-
 function errorHandler(e) {
     var msg = '';
 
