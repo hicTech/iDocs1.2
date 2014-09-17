@@ -29,8 +29,14 @@
     <title>Hello World</title>
 </head>
 
-
+<link rel="stylesheet" href="css/font/font.css" type="text/css"/>
 <link rel="stylesheet" href="css/style.css" type="text/css"/>
+<link rel="stylesheet" href="css/NEW-style.css" type="text/css"/>
+<link rel="stylesheet" type="text/css" href="css/flex_layout.css"/>
+<link rel="stylesheet" type="text/css" href="css/fontIcons/fontIcon.css"/>
+<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+<link rel="stylesheet" type="text/css" href="css/buttons.css"/>
+<script type="text/javascript" src="js/underscore.js"></script>
 
 <script type="text/javascript" src="js/delog.js"></script>
 
@@ -43,6 +49,9 @@
 
 
 <script>
+
+
+
     window.addEventListener('load', function () {
         setTimeout(function () {
         }, 100)
@@ -62,41 +71,73 @@
 </script>
 
 
-<body class="body"
-      style="background-image:url(imm/sfondo_login.png); background-repeat: no-repeat; background-color: white">
+<body class="NEW-login_home">
+<div class="EXTENDER">
+    <div class="ROWS">
+        <div class="ROW" style="height: 35px"></div>
+        <div class="ROW" style="height: 80px;text-align: center;font-size: 18px; color: grey">
+            <label>Password:<br></label>
+            <input class="NEW-login_input" type="password" id="psw" value=""/>
+        </div>
 
-<label for="tiText" style="font-size:18px; color:#6b6868;position:absolute; top:25px; left:35px">Password</label>
-<br>
-<input style="font-size:20px; border-color:#ccc; position:absolute; top:48px; left:33px" type="password" id="psw"
-       value=""/>
+        <div class="ROW" style="height: 50px;text-align: center;font-size: 18px; color: grey">
+            <button class="button button_primary" onclick="tentaLogin()">
+                &nbsp;&nbsp;login&nbsp;&nbsp;
+            </button>
+        </div>
+        <div class="ROW" style="height: 20px; color: lightgray; text-align: center">
+            customer id:
+        </div>
+        <div class="ROW" style="height: 25px; color: gray; font-size: 15px; text-align: center" id="c_id">
+            <script>document.write(localStorage.getItem('customer_id'));</script>
+        </div>
+        <div class="ROW" style="height: 60px; text-align: center;">
+            <script>
+                document.write('<a style="color:#1fa3ec; text-decoration: underline" href="mailto:info@hictech.com?subject=iDocs1.2 request new psw customer-id:' + localStorage.getItem('customer_id') + '" target="_blank">' + RECUPERA_PASSWORD + '</a>')
+            </script>
+        </div>
 
-<div style="position:absolute; top:115px; left:100px; width:115px; height:75px" onclick="tentaLogin()"></div>
+
+        <div class="ROW-FLEX" style="text-align: center; font-size: 13px; line-height: 21px">
+
+            <div style="width: 90%; margin: 0px auto">
+                <font style="font-size: 17px;font-weight: bold">iDocs 1.2<br></font>
+                We are really proud to announce that iDocs is becoming a new amazing project called <b>picDocs</b>.<br>
+                Starting from incredible success of iDocs, with thousands and thousands user, <b>picDocs</b> will add
+                lots of features and improvements.<br>
+                This is a migration version that allow you to store all your current documents in your DropBox folder
+                and be ready to import them in <b>picDocs</b>.
+            </div>
+        </div>
+    </div>
+</div>
+
 <script>
-    //if (localStorage.getItem('password') == "") {
-    sessionStorage.setItem("login_superata", true);
-    location.href = "home.html";
-    //}
-</script>
-<div id="c_id" style="position:absolute; top:252px; left:85px; color:#6b6868">customer id:
-    <script>
-        document.write(localStorage.getItem('customer_id'))
-    </script>
-</div>
-<div style="position:absolute; top:435px; left:190px; color:#6b6868; width:100px; height:20px; padding:20px 0px 0px 20px">
-    <script>
-        document.write('<a href="mailto:info@hictech.com?subject=iDocs1.2 request new psw customer-id:' + localStorage.getItem('customer_id') + '" target="_blank">' + RECUPERA_PASSWORD + '</a>')
-    </script>
-</div>
 
-<div style="position:absolute; top:435px; left:2px; color:#6b6868; width:100px; height:20px; padding:20px 0px 0px 20px">
-    <a href="credits.html">Credits</a>
-</div>
+    $(document).ready(function(){
+
+
+        if (localStorage.getItem('password') == "" || localStorage.getItem('password') == null) {
+            sessionStorage.setItem("login_superata", true);
+            location.href = "home.html";
+        }
+    });
+
+</script>
+
+<span style="display: none">
+
+
+
+</span>
+
 </body>
 
 <script>
     function tentaLogin() {
 
         var psw = document.getElementById("psw").value;
+
 
         if (verificaPassword(psw)) {
             sessionStorage.setItem('login_superata', true);

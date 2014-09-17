@@ -36,18 +36,3 @@ function cambiaTipoSessione(stato){
 }
 
 
-
-
-var agent="4";
-
-
-
-if(navigator.userAgent.indexOf("3_1_2")!=-1)
-agent="3.1.2";
-
-if(navigator.userAgent.indexOf("3_1_3")!=-1)
-agent="3.1.3";
-
-if(navigator.userAgent.indexOf("3_2")!=-1)
-agent="3.2";
-

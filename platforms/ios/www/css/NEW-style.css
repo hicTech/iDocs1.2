@@ -30,7 +30,7 @@
 
 .NEW-footer .COL-FLEX .FONT-ICON:before {
     font-size: 15px;
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 1);
 }
 
 .NEW-toolbar #home_done_button, .NEW-toolbar #home_search_input, .NEW-toolbar #home_search_eraser {
@@ -396,6 +396,39 @@
     transform: translateX(-100%);
 }
 
-.was_selected{
-    opacity: 0.2;
+
+
+
+
+
+
+
+
+
+
+
+
+.NEW-login_home{
+    background-color: white;
+
+    -webkit-touch-callout: auto;
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+}
+
+.NEW-login_home .EXTENDER{
+    box-shadow: inset 0px 0px 100px rgba(0,0,0,0.3);
+}
+
+.NEW-login_input{
+    font-size:20px;
+    padding: 8px 0px 10px 20px;
+    color: grey;
+    width: 250px;
+    border: solid 1px rgba(0,0,0,0.15);
+    border-radius: 200px;
+    -webkit-appearance: none;
+
 }
