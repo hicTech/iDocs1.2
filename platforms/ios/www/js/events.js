@@ -1,7 +1,16 @@
 function loaded() {
 
-    if (sessionStorage.getItem("login_superata") == null)
+    //la pirma volta memorizzo la data del primo accesso
+    if(localStorage.getItem("last_access") == null){
+       localStorage.setItem("last_access",new Date().getTime());
+    }
+
+    document.addEventListener("resume", appResumed , false);
+    document.addEventListener("pause", appInBackground, false);
+
+    if (sessionStorage.getItem("login_superata") == null) {
         mostraLogin();
+    }
     else {
         start();
     }
@@ -11,7 +20,6 @@ function loaded() {
 
 
 function start() {
-
 
     //EDIT ALL DOCS
     var $home_edit_button = $('#home_edit_button');

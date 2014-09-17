@@ -1,38 +1,18 @@
-setInterval("avanzaClock()",1000);
-
-var datatime=new Date().getTime();
-
-localStorage.setItem("clock",datatime);
-
-if(!localStorage.getItem("tipo_sessione"))
-	localStorage.setItem("tipo_sessione","no_multitasking");
-
-function avanzaClock(){
-	var old_clock=localStorage.getItem("clock")
-	var new_clock=new Date().getTime();
-	localStorage.setItem("clock",new_clock);
-	if(parseInt(new_clock)-parseInt(old_clock)>6000){
-
-		if(localStorage.getItem('password')!="" && localStorage.getItem("tipo_sessione")=="multitasking")
-			document.location.href="../index.html";
-	}
-
+function appInBackground(){
+    localStorage.setItem("last_access",new Date().getTime());
 }
 
-function cambiaTipoSessione(stato){
-	if(stato){
-		localStorage.setItem("tipo_sessione","no_multitasking");
-		document.getElementById("div_info_sessione_1").style.display="none";
-		document.getElementById("div_info_sessione_2").style.display="block";
-	}
-	else{
-		localStorage.setItem("tipo_sessione","multitasking");
-		document.getElementById("div_info_sessione_1").style.display="block";
-		document.getElementById("div_info_sessione_2").style.display="none";
+function appResumed(){
+    var timeout = appConfig.logoutTimeout;
+    var time_in_background = parseInt(new Date().getTime()) - parseInt(localStorage.getItem("last_access"));
+    var password_setted = (localStorage.getItem('password') != "" && localStorage.getItem('password') != null);
 
-	}
-	//alert("sessione:"+ localStorage.getItem("tipo_sessione"))
-		
+    if(password_setted){
+        if(time_in_background > timeout){
+            alert("Sessione scaduta");
+            location.href = "index.html";
+        }
+    }
+
+
 }
-
-

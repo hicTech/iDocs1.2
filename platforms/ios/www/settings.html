@@ -51,9 +51,7 @@
                 <script>
 
 
-                    var check = "CHECKED";
-                    if (localStorage.getItem("tipo_sessione") != "no_multitasking")
-                        check = "";
+
 
                     if (localStorage.getItem('password') == "" || localStorage.getItem('password') == null) { /////////password non impostata
 
@@ -136,6 +134,8 @@
                     var ok_settings_button = document.getElementById('ok_settings_button');
                     new FastClick(ok_settings_button);
                     ok_settings_button.addEventListener('touchstart', function (e) {
+                        e.stopPropagation();
+                        e.preventDefault();
                         cliccatoOkSettings();
                     }, false);
 
@@ -145,95 +145,118 @@
 
                     function cliccatoOkSettings() {
 
-                        if (localStorage.getItem('password') == "" || localStorage.getItem('password') == null) { /////caso in cui sta impostnado la password
+                        var $psw1 = $("#psw1");
+                        var $psw2 = $("#psw2");
+                        var $psw_attuale = $("#psw_attuale");
 
-                            var psw1 = document.getElementById("psw1").value;
-                            var psw2 = document.getElementById("psw2").value;
+                        var psw1 = ($psw1.size() != 0)? $psw1.val() : "";
+                        var psw2 = ($psw2.size() != 0)? $psw2.val() : "";
+                        var psw_attuale = ($psw_attuale.size() != 0)? $psw_attuale.val() : "";
 
-                            // le password non coincidono
-                            if (psw1 != psw2) {
+                        $psw1.blur();
+                        $psw2.blur();
+                        $psw_attuale.blur();
 
-                                navigator.notification.alert(
-                                        PASSWORD_INSERITE_NON_COINCIDONO,
-                                        null,
-                                        'Ops!'
-                                );
-
-                                return false;
-                            }
-
-                            // compila tutti i campi
-                            if (psw1 == "" || psw2 == "") {
-
-                                navigator.notification.alert(
-                                        COMPILARE_TUTTI_I_CAMPI,
-                                        null,
-                                        'Ops!'
-                                );
-
-                                return false;
-                            }
-
-
-                            localStorage.setItem('password_impostata', true);
-                            localStorage.setItem('password', psw1);
-
-
-                            navigator.notification.alert(
-                                    PASSWORD_IMPOSTATA_CORRETTAMENTE,
-                                    setTimeout("location.href='home.html'", 400),
-                                    'ok'
-                            );
+                        setTimeout(function(){
+                            /////caso in cui sta impostnado la password per la prima volta
+                            if (localStorage.getItem('password') == "" || localStorage.getItem('password') == null) {
 
 
 
-
-                        } else {  // caso in cui sto modificando/reimpostando la password
-
-                            var psw_attuale = document.getElementById("psw_attuale").value;
-                            var psw1 = document.getElementById("psw1").value;
-                            var psw2 = document.getElementById("psw2").value;
-
-
-                            if (psw_attuale == localStorage.getItem('password')) {
-
+                                // le password non coincidono
                                 if (psw1 != psw2) {
+
                                     navigator.notification.alert(
                                             PASSWORD_INSERITE_NON_COINCIDONO,
                                             null,
                                             'Ops!'
                                     );
+
                                     return false;
                                 }
+
+                                // compila tutti i campi
+                                if (psw1 == "" || psw2 == "") {
+
+                                    navigator.notification.alert(
+                                            COMPILARE_TUTTI_I_CAMPI,
+                                            null,
+                                            'Ops!'
+                                    );
+
+                                    return false;
+                                }
+
+
                                 localStorage.setItem('password_impostata', true);
                                 localStorage.setItem('password', psw1);
 
 
+                                ActivityIndicator.show(PASSWORD_IMPOSTATA_CORRETTAMENTE);
 
-                                localStorage.setItem('customer_id', 'restore');
+                                setTimeout(function(){
+                                    ActivityIndicator.hide();
+                                }, 2500);
 
-                                navigator.notification.alert(
-                                        PASSWORD_MODIFICATA,
-                                        setTimeout("location.href='home.html'", 400),
-                                        'ok'
-                                );
-
-
-
+                                setTimeout(function(){
+                                    location.href='home.html';
+                                }, 2700);
 
 
-                            } else {
 
-                                navigator.notification.alert(
-                                        PASSWORD_SBAGLIATA,
-                                        null,
-                                        'Ops!'
-                                );
 
-                                return false;
+                            } else {  // caso in cui sto modificando/reimpostando la password
+
+
+                                if (psw_attuale == localStorage.getItem('password')) {
+
+                                    if (psw1 != psw2) {
+                                        navigator.notification.alert(
+                                                PASSWORD_INSERITE_NON_COINCIDONO,
+                                                null,
+                                                'Ops!'
+                                        );
+                                        return false;
+                                    }
+                                    localStorage.setItem('password_impostata', true);
+                                    localStorage.setItem('password', psw1);
+
+
+
+                                    localStorage.setItem('customer_id', 'restore');
+
+
+
+
+                                    ActivityIndicator.show(PASSWORD_MODIFICATA);
+
+                                    setTimeout(function(){
+                                        ActivityIndicator.hide();
+                                    }, 2500);
+
+                                    setTimeout(function(){
+                                        location.href='home.html';
+                                    }, 2700);
+
+
+
+
+
+
+                                } else {
+
+                                    navigator.notification.alert(
+                                            PASSWORD_SBAGLIATA,
+                                            null,
+                                            'Ops!'
+                                    );
+
+                                    return false;
+                                }
+
                             }
+                        },250)
 
-                        }
                     }
 
 

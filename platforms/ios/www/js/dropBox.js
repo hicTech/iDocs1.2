@@ -106,11 +106,6 @@ function deviceReady() {
 }
 
 
-document.addEventListener("resume", function () {
-    //alert("resumed");
-}, false);
-
-
 
 function userNotLogged() {
     $(".logged_element").hide();
