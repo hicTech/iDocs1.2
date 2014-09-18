@@ -12,8 +12,11 @@ function synch() {
 
     $(".twitter").hide();
     var uuid = device.uuid;
+    var device_name = getIDeviceNameFromModel(device.model);
+    var unicque_device_name = device_name+"_id_"+uuid.substr(0,6);
 
-    this_app_version_root = "ver1.2/" + uuid;
+
+    this_app_version_root = "ver1.2/"+unicque_device_name;
 
 
     $target = $("#files_target").html("");
@@ -61,7 +64,7 @@ function neededSpace() {
             ActivityIndicator.hide();
             if (ammount > fileSize(free, true)) {
                 navigator.notification.alert(
-                        'Not enough space on your Dropbox! iDocs needs at least ' + fileSize(ammount) + ' on your Dropbox',  // message
+                    'Not enough space on your Dropbox! iDocs needs at least ' + fileSize(ammount) + ' on your Dropbox',  // message
                     null,
                     'Ops!',            // title
                     'ok'                  // buttonName
@@ -165,6 +168,7 @@ function verifyChanges(local_files, remote_files) {
 
 
 function doSync(local_files, remote_files) {
+
     if (local_files.length != 0)
         uploadFiles(local_files, remote_files);
     else {

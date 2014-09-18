@@ -51,7 +51,7 @@ function start() {
 
         setTimeout(function () {
             location.href = "synch_intro.html";
-        }, 1000)
+        }, 2000)
 
     });
 

@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d2e8c305-9c45-47f4-a43c-2a4b71c4a305" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/iDocs1.2.xcodeproj/project.xcworkspace/xcuserdata/macbookmarconi.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/platforms/ios/iDocs1.2.xcodeproj/project.xcworkspace/xcuserdata/macbookmarconi.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/appConfig.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/appConfig.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/events.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/events.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/synch.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/synch.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/synch_intro.html" afterPath="$PROJECT_DIR$/platforms/ios/www/synch_intro.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/synch.html" afterPath="$PROJECT_DIR$/platforms/ios/www/synch.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/synch.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/synch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/utilita.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/utilita.js" />
     </list>
     <ignored path="iDocs1.2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +32,8 @@
       <file leaf-file-name="events.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/events.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.923077" vertical-offset="421" max-vertical-offset="12660">
-              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+            <state vertical-scroll-proportion="-14.384615" vertical-offset="421" max-vertical-offset="12660">
+              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -70,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="synch_intro.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="synch_intro.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platforms/ios/www/synch_intro.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59821427" vertical-offset="805" max-vertical-offset="1380">
+            <state vertical-scroll-proportion="-6.7" vertical-offset="805" max-vertical-offset="1380">
               <caret line="76" column="44" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -87,8 +86,8 @@
       <file leaf-file-name="dropBox.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/dropBox.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="857" max-vertical-offset="1995">
-              <caret line="66" column="115" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="115" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1995">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -107,57 +106,33 @@
       <file leaf-file-name="synch.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platforms/ios/www/synch.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.875" vertical-offset="450" max-vertical-offset="2415">
-              <caret line="33" column="51" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="51" />
+            <state vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="2430">
+              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/local.js">
+      <file leaf-file-name="synch.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/synch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.769231" vertical-offset="848" max-vertical-offset="1995">
-              <caret line="70" column="19" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platforms/ios/www/settings.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="4215">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.46232876" vertical-offset="0" max-vertical-offset="3945">
+              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1410970831000" expanded="true" signature="2019:2068" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="2200:2212" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="2229:2255" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="2366:2378" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="2395:2409" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="2514:2526" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="2543:2569" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="2677:2689" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="2706:2720" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="2882:2893" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="3253:3302" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="3422:3434" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="3451:3477" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="3578:3590" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="3607:3621" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="3725:3737" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="3754:3780" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="3889:3901" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="3918:3932" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="4029:4041" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="4058:4084" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="4184:4196" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="4213:4227" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="4324:4336" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="4390:4401" placeholder="..." />
-                <marker date="1410970831000" expanded="true" signature="4575:4587" placeholder="..." />
+                <marker date="1411049033000" expanded="false" signature="3865:3880" placeholder="..." />
+                <marker date="1411049033000" expanded="false" signature="4214:4229" placeholder="..." />
+                <marker date="1411049033000" expanded="false" signature="4605:4634" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utilita.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/utilita.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="2400">
+              <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -180,14 +155,18 @@
         <option value="$PROJECT_DIR$/platforms/ios/www/js/appConfig.js" />
         <option value="$PROJECT_DIR$/platforms/ios/www/settings.html" />
         <option value="$PROJECT_DIR$/platforms/ios/www/css/synch.css" />
-        <option value="$PROJECT_DIR$/platforms/ios/www/js/events.js" />
         <option value="$PROJECT_DIR$/platforms/ios/www/synch_intro.html" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/events.js" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/synch.html" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/utilita.js" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/synch.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="93" />
     <option name="y" value="22" />
-    <option name="width" value="1280" />
+    <option name="width" value="861" />
     <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -377,7 +356,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="743" extended-state="6" />
+    <frame x="93" y="22" width="861" height="743" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -385,7 +364,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -433,32 +412,32 @@
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="66" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1410970831000" expanded="true" signature="2019:2068" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="2200:2212" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="2229:2255" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="2366:2378" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="2395:2409" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="2514:2526" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="2543:2569" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="2677:2689" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="2706:2720" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="2882:2893" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="3253:3302" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="3422:3434" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="3451:3477" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="3578:3590" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="3607:3621" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="3725:3737" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="3754:3780" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="3889:3901" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="3918:3932" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="4029:4041" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="4058:4084" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="4184:4196" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="4213:4227" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="4324:4336" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="4390:4401" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="4575:4587" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -479,30 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/ios/www/css/synch.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/dropBox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="857" max-vertical-offset="1995">
-          <caret line="66" column="115" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="115" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/ios/www/synch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875" vertical-offset="450" max-vertical-offset="2415">
-          <caret line="33" column="51" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platforms/ios/www/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.25" vertical-offset="1695" max-vertical-offset="2565">
@@ -519,22 +474,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/events.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.923077" vertical-offset="421" max-vertical-offset="12660">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platforms/ios/www/synch_intro.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59821427" vertical-offset="805" max-vertical-offset="1380">
+        <state vertical-scroll-proportion="-6.7" vertical-offset="805" max-vertical-offset="1380">
           <caret line="76" column="44" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/dropBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1995">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615" vertical-offset="421" max-vertical-offset="12660">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/www/css/synch.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/www/synch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="2430">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/utilita.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="2400">
+          <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/synch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46232876" vertical-offset="0" max-vertical-offset="3945">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+          <folding>
+            <marker date="1411049033000" expanded="false" signature="3865:3880" placeholder="..." />
+            <marker date="1411049033000" expanded="false" signature="4214:4229" placeholder="..." />
+            <marker date="1411049033000" expanded="false" signature="4605:4634" placeholder="..." />
           </folding>
         </state>
       </provider>
