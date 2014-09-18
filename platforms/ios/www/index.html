@@ -77,7 +77,7 @@
 <body class="NEW-login_home">
 <div class="EXTENDER">
     <div class="ROWS">
-        <div class="ROW" style="height: 35px"></div>
+        <div class="ROW" style="height: 30px"></div>
         <div class="ROW" style="height: 80px;text-align: center;font-size: 18px; color: grey">
             <label>Password:<br></label>
             <input class="NEW-login_input" type="password" id="psw" value=""/>
@@ -94,7 +94,7 @@
         <div class="ROW" style="height: 25px; color: gray; font-size: 15px; text-align: center" id="c_id">
             <script>document.write(localStorage.getItem('customer_id'));</script>
         </div>
-        <div class="ROW" style="height: 60px; text-align: center;">
+        <div class="ROW" style="height: 45px; text-align: center;">
             <script>
                 document.write('<a style="color:#1fa3ec; text-decoration: underline" href="mailto:info@hictech.com?subject=iDocs1.2 request new psw customer-id:' + localStorage.getItem('customer_id') + '" target="_blank">' + RECUPERA_PASSWORD + '</a>')
             </script>
@@ -105,11 +105,7 @@
 
             <div style="width: 90%; margin: 0px auto">
                 <font style="font-size: 17px;font-weight: bold">iDocs 1.2<br></font>
-                We are really proud to announce that iDocs is becoming a new amazing project called <b>picDocs</b>.<br>
-                Starting from incredible success of iDocs, with thousands and thousands user, <b>picDocs</b> will add
-                lots of features and improvements.<br>
-                This is a migration version that allow you to store all your current documents in your DropBox folder
-                and be ready to import them in <b>picDocs</b>.
+                <script>document.write(LANDING_MASSAGE)</script>
             </div>
         </div>
     </div>

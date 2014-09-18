@@ -9,7 +9,7 @@ function appResumed(){
 
     if(password_setted){
         if(time_in_background > timeout){
-            alert("Sessione scaduta");
+            //alert("Sessione scaduta");
             location.href = "index.html";
         }
     }
