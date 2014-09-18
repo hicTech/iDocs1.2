@@ -2,7 +2,7 @@ body {
     background-color: rgba(0, 0, 0, 0.1);
     font-family: "Helvetica Neue";
     font-size: 13px;
-    padding: 15px 10px 0px 10px;
+    padding: 15px 5px 0px 5px;
 }
 
 
@@ -10,7 +10,7 @@ body {
 .landing_amessage{
 
     text-align: center;
-    line-height: 23px;
+    line-height: 20px;
 
 }
 
@@ -19,7 +19,7 @@ body {
     width: 100px;
     height: 100px;
     background-size: 100px 100px;
-    margin: 8px auto;
+    margin: 0px auto;
 }
 
 

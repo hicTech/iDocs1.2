@@ -43,11 +43,15 @@ function start() {
     var $home_cloud_button = $('#home_cloud_button');
     new FastClick($home_cloud_button.get(0));
     $home_cloud_button.bind('click', function () {
+        $("#general_container").addClass("animated fadeOut");
 
-        save();
+        setTimeout(function(){
+            save();
+        },350)
+
         setTimeout(function () {
             location.href = "synch_intro.html";
-        }, 800)
+        }, 1000)
 
     });
 
