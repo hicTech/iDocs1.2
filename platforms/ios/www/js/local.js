@@ -45,6 +45,7 @@ if(lanParser == "EN"){ //lanParser == "EN"
 	var INDIETRO="Indietro";
 	var CONFERMA="Conferma";
 	var OK="Ok";
+    var ESCI="Esci";
 	
 	var RECUPERA_PASSWORD="Recupera password";
 	var FREE_VERSION_MESSAGE="Con la versione Light puoi inserire massimo 3 documenti";
@@ -95,6 +96,7 @@ if(lanParser == "EN"){ //lanParser == "EN"
 	var INDIETRO="Back";
 	var CONFERMA="Confirm";
 	var OK="Ok";
+    var ESCI="Exit";
 	
 	var RECUPERA_PASSWORD="Recover password";
 	var FREE_VERSION_MESSAGE="This version allows only 3 docs";

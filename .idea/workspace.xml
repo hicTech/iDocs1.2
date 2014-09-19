@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2e8c305-9c45-47f4-a43c-2a4b71c4a305" name="Default" comment="" />
+    <list default="true" id="d2e8c305-9c45-47f4-a43c-2a4b71c4a305" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/iDocs1.2.xcodeproj/project.xcworkspace/xcuserdata/macbookmarconi.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/platforms/ios/iDocs1.2.xcodeproj/project.xcworkspace/xcuserdata/macbookmarconi.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/local.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/local.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/settings.html" afterPath="$PROJECT_DIR$/platforms/ios/www/settings.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="iDocs1.2.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,11 +31,9 @@
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platforms/ios/www/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-39.82" vertical-offset="379" max-vertical-offset="2640">
+            <state vertical-scroll-proportion="-82.958336" vertical-offset="379" max-vertical-offset="2640">
               <caret line="158" column="72" selection-start-line="158" selection-start-column="72" selection-end-line="158" selection-end-column="72" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -38,12 +41,9 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platforms/ios/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.625" vertical-offset="1341" max-vertical-offset="2340">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1341" max-vertical-offset="2340">
               <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/delog.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -71,32 +71,68 @@
       <file leaf-file-name="synch_intro.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platforms/ios/www/synch_intro.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.48" vertical-offset="206" max-vertical-offset="1380">
+            <state vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="1380">
               <caret line="22" column="58" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="58" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="local.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/local.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1598023" vertical-offset="1433" max-vertical-offset="2040">
-              <caret line="102" column="93" selection-start-line="102" selection-start-column="93" selection-end-line="102" selection-end-column="93" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="synch.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platforms/ios/www/css/synch.css">
+      <file leaf-file-name="local.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/local.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state vertical-scroll-proportion="-7.8846154" vertical-offset="1265" max-vertical-offset="2070">
+              <caret line="98" column="18" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/platforms/ios/www/settings.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3954984" vertical-offset="1479" max-vertical-offset="4395">
+              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1411132456000" expanded="false" signature="2019:2068" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="2200:2212" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="2229:2255" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="2366:2378" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="2395:2409" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="2514:2526" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="2543:2569" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="2677:2689" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="2706:2720" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="2882:2893" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="3253:3302" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="3422:3434" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="3451:3477" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="3578:3590" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="3607:3621" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="3725:3737" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="3754:3780" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="3889:3901" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="3918:3932" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="4029:4041" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="4058:4084" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="4184:4196" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="4213:4227" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="4324:4336" placeholder="..." />
+                <marker date="1411132456000" expanded="false" signature="4390:4401" placeholder="..." />
+                <marker date="1411132456000" expanded="true" signature="4580:4606" placeholder="..." />
+                <marker date="1411132456000" expanded="true" signature="4768:4780" placeholder="..." />
+                <marker date="1411132456000" expanded="true" signature="4834:4845" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/ios/www/css/fontIcons/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3645">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,8 +141,8 @@
       <file leaf-file-name="synch.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platforms/ios/www/synch.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="2430">
-              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+            <state vertical-scroll-proportion="-12.5" vertical-offset="390" max-vertical-offset="2430">
+              <caret line="46" column="79" selection-start-line="46" selection-start-column="69" selection-end-line="46" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -115,23 +151,13 @@
       <file leaf-file-name="synch.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/synch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="39.23077" vertical-offset="1290" max-vertical-offset="3945">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1290" max-vertical-offset="3945">
               <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
               <folding>
                 <marker date="1411049033000" expanded="false" signature="3865:3880" placeholder="..." />
                 <marker date="1411049033000" expanded="false" signature="4214:4229" placeholder="..." />
                 <marker date="1411049033000" expanded="false" signature="4605:4634" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utilita.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/utilita.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="2400">
-              <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -150,7 +176,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/platforms/ios/www/js/appConfig.js" />
-        <option value="$PROJECT_DIR$/platforms/ios/www/settings.html" />
         <option value="$PROJECT_DIR$/platforms/ios/www/css/synch.css" />
         <option value="$PROJECT_DIR$/platforms/ios/www/js/events.js" />
         <option value="$PROJECT_DIR$/platforms/ios/www/synch.html" />
@@ -162,6 +187,7 @@
         <option value="$PROJECT_DIR$/platforms/ios/www/synch_intro.html" />
         <option value="$PROJECT_DIR$/platforms/ios/www/index.html" />
         <option value="$PROJECT_DIR$/platforms/ios/www/js/local.js" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/settings.html" />
       </list>
     </option>
   </component>
@@ -184,7 +210,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -195,161 +221,13 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iDocs1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iDocs1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iDocs1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iDocs1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iDocs1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iDocs1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iDocs1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iDocs1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iDocs1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iDocs1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iDocs1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iDocs1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iDocs1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -360,14 +238,12 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
-      <option name="executablePath" />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
       <option name="filePath" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -375,6 +251,16 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -399,7 +285,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="743" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -416,8 +302,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -440,39 +326,87 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/platforms/ios/www/settings.html">
+    <entry file="file://$PROJECT_DIR$/platforms/ios/www/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="4215">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2640">
+          <caret line="158" column="72" selection-start-line="158" selection-start-column="72" selection-end-line="158" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1341" max-vertical-offset="2340">
+          <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/delog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="360">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/www/css/NEW-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5606" max-vertical-offset="6675">
+          <caret line="394" column="21" selection-start-line="394" selection-start-column="21" selection-end-line="394" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/www/synch_intro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="1380">
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/local.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1433" max-vertical-offset="2040">
+          <caret line="102" column="93" selection-start-line="102" selection-start-column="93" selection-end-line="102" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/www/css/synch.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="600">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/www/synch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="2430">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/synch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1290" max-vertical-offset="3945">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1410970831000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1411049033000" expanded="false" signature="3865:3880" placeholder="..." />
+            <marker date="1411049033000" expanded="false" signature="4214:4229" placeholder="..." />
+            <marker date="1411049033000" expanded="false" signature="4605:4634" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/utilita.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="2400">
+          <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -496,7 +430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1995">
           <caret line="8" column="14" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -516,14 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/ios/www/synch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="2430">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/utilita.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="2400">
@@ -534,21 +459,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/synch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="39.23077" vertical-offset="1290" max-vertical-offset="3945">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1290" max-vertical-offset="3945">
           <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
           <folding>
             <marker date="1411049033000" expanded="false" signature="3865:3880" placeholder="..." />
             <marker date="1411049033000" expanded="false" signature="4214:4229" placeholder="..." />
             <marker date="1411049033000" expanded="false" signature="4605:4634" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/ios/www/css/fontIcons/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3645">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,52 +477,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/delog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platforms/ios/www/synch_intro.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.48" vertical-offset="206" max-vertical-offset="1380">
+        <state vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="1380">
           <caret line="22" column="58" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="58" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/platforms/ios/www/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-39.82" vertical-offset="379" max-vertical-offset="2640">
+        <state vertical-scroll-proportion="-82.958336" vertical-offset="379" max-vertical-offset="2640">
           <caret line="158" column="72" selection-start-line="158" selection-start-column="72" selection-end-line="158" selection-end-column="72" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/platforms/ios/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.625" vertical-offset="1341" max-vertical-offset="2340">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1341" max-vertical-offset="2340">
           <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/www/synch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5" vertical-offset="390" max-vertical-offset="2430">
+          <caret line="46" column="79" selection-start-line="46" selection-start-column="69" selection-end-line="46" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/www/css/fontIcons/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3645">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/local.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1598023" vertical-offset="1433" max-vertical-offset="2040">
-          <caret line="102" column="93" selection-start-line="102" selection-start-column="93" selection-end-line="102" selection-end-column="93" />
+        <state vertical-scroll-proportion="-7.8846154" vertical-offset="1265" max-vertical-offset="2070">
+          <caret line="98" column="18" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/delog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/www/settings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3954984" vertical-offset="1479" max-vertical-offset="4395">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1411132456000" expanded="false" signature="2019:2068" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="2200:2212" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="2229:2255" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="2366:2378" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="2395:2409" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="2514:2526" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="2543:2569" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="2677:2689" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="2706:2720" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="2882:2893" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="3253:3302" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="3422:3434" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="3451:3477" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="3578:3590" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="3607:3621" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="3725:3737" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="3754:3780" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="3889:3901" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="3918:3932" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="4029:4041" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="4058:4084" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="4184:4196" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="4213:4227" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="4324:4336" placeholder="..." />
+            <marker date="1411132456000" expanded="false" signature="4390:4401" placeholder="..." />
+            <marker date="1411132456000" expanded="true" signature="4580:4606" placeholder="..." />
+            <marker date="1411132456000" expanded="true" signature="4768:4780" placeholder="..." />
+            <marker date="1411132456000" expanded="true" signature="4834:4845" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
