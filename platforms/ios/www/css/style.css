@@ -261,4 +261,26 @@ div.button_bar > img {
     background-repeat: no-repeat;
     background-position: center top;
     position: relative;
-} 
+}
+
+
+.more_info_image{
+
+    background:url(../imm/more_info.png);
+
+    background-size: 200px 114px;
+    width: 200px;
+    height: 114px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0px auto;
+}
+
+.more_info_scroller{
+    /* queste due se non viene lanciato iScroll usano lo scroll nativo di iOS */
+    overflow: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+
+}

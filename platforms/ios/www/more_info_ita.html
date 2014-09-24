@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+    <link rel="stylesheet" type="text/css" href="css/buttons.css"/>
+    <link rel="stylesheet" type="text/css" href="css/synch.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/flex_layout.css"/>
+    <link rel="stylesheet" href="css/font/font.css" type="text/css"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+    <script type="text/javascript" src="js/appConfig.js"></script>
+    <script type="text/javascript" src="js/local.js"></script>
+
+    <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="js/cordova.js"></script>
+
+    <script src="js/underscore.js"></script>
+</head>
+
+<body style="background-color: #4c535a">
+
+<div class="EXTENDER">
+    <div class="ROWS">
+        <div class="ROW" style="height: 180px">
+            <div style="height: 20px"></div>
+            <div class="more_info_image"></div>
+            <h1 style="text-align: center; color:white; font-weight: bold">iDocs 1.2</h1>
+        </div>
+        <div class="ROW-FLEX">
+            <div class="EXTENDER">
+                <div class="more_info_scroller">
+
+
+                    <p style="width: 90%; text-align: justify; color: white; margin: 0px auto; font-size: 12px">
+                        iDocs sta per diventare picDocs!<br>
+                        PicDocs è un progetto che ti permette di salvare e gestire tutti i tuoi documenti: patente, tessera santitaria, carte di credito, codice fiscale ma anche scontrini, ricevute, post it ecc. in maniera
+                        sicura, facile, veloce e su tutti i tuoi dispositivi.<br>
+                        PicDocs ti permette di inviare facilmente i tuoi documenti in formato pdf via email, salvarli
+                        sul cloud Dropbox, visualizzarli e gestirli da tutti i tuoi dispositivi.<br><br>
+
+                        Questa è iDocs 1.2 una versione intermedia, destinata a chi già usa iDocs, che ti permette di salvare tutti i tuoi documenti al sicuro sul TUO spazio Dropbox.<br>
+                        Tutti i tuoi attuali documenti saranno salvati su Dropbox in maniera criptata e potranno essere importati quando installerai picDocs.<br><br>
+
+
+                    </p>
+
+
+                    <div style="width: 90%; text-align: justify; margin: 0px auto; color: white; font-size: 12px; line-height: 20px">
+
+                        Ci teniamo che tu sappia:<br>
+                        <ol>
+                            <li>
+                                Questa app ha superato le verifiche di sicurezza di Dropbox;
+                            </li>
+                            <li>
+                                Queste app soddisfa i criteri valutativi di Apple;
+                            </li>
+                            <li>
+                                Durante il comune utilizzo dell'app non vi è comunicazione con alcun server, i tuoi docuementi sono memorizzati <font style="text-decoration:underline">SOLO</font> sul <font style="text-decoration:underline">TUO</font> dispositivo (puoi provare a disattivare la connessione internet per testare che effettivamente l'app funziona anche senza connessione internet);
+                            </li>
+                            <li>
+                                L'unico momento in cui l'app comunica con server è durante il processo di sincronizzazione. Durante questo processo i tuoi documenti vengono trasmessi utilizzando una connessione sicura (https) con la <font style="text-decoration:underline">TUA</font> cartella Dropbox;
+                            </li>
+                            <li>
+                                I tuoi documenti vengo trasferiti dal <font style="text-decoration:underline">TUO</font> dispositivo verso la <font style="text-decoration:underline">SOLA</font> cartella Dropbox del <font style="text-decoration:underline">TUO</font> account Dropbox;
+                            </li>
+                            <li>
+                                Il processo di sincronizzazione ha il <font style="text-decoration:underline">SOLO</font> scopo di trasferire i documenti presenti nel tuo dispositivo sulla <font style="text-decoration:underline">TUA</font> cartella Dropbox. I tuoi dati personali quali: indirizzo email, nome, cognome, numero di telefono ecc. non vengono in alcun modo letti, trasmessi o memorizzati;
+                            </li>
+                            <li>
+                                Il processo di sincronizzazione è un processo che interessa solo il <font style="text-decoration:underline">TUO</font> device ed i server di Dropbox, non abbiamo modo di sapere se e quando sincronizzi i tuoi documenti con Dropbox;
+                            </li>
+                            <li>
+                                Per sincronizzare i tuoi documenti ti verrà richiesto di eseguire l'accesso a Dropbox. L'app mostrerà la pagina di autenticazione di Dropbox nella quale potrai inserire l'email e la password impostate per il tuo account Dropbox. Anche questo processo avviene fra il <font style="text-decoration:underline">TUO</font> device e i server Dropbox. L'app NON ha modo di conoscere le tue credenziali di accesso Dropbox;
+                            </li>
+                            <li>
+                                Una volta che ti sarai loggato con Dropbox saranno i server di Dropbox a dire all'app che ti sei loggato, senza trasferire le tue credenziali;
+                            </li>
+                            <li>
+                                Il processo  di sincronizzazione non può in alcun modo eliminare documenti dall'app;
+                            </li>
+                            <li>
+                                Il processo di sincronizzazione ha il solo scopo di duplicare su Dropbox la struttura dei tuoi documenti (nome e foto) così come sono salvati sul tuo dispositivo. Questa versione <font style="text-decoration:underline">NON</font> prevede il processo inverso (da Dropbox verso il device);
+                            </li>
+                            <li>
+                                Lo scopo dell'operazione di sincronizzazione è salvare i tuoi documenti su Dropbox per fini di backup, al fine di importarli nella nuova versione di iDocs (picDocs) e per poterli visualizzare su tutti i tuoi dispositivi;
+                            </li>
+                            <li>
+                                Alla fine del processo di sincronizzazione i tuoi documenti saranno salvati nella <font style="text-decoration:underline">TUA</font> cartella Dropbox al seguente percorso: “Applicazioni/iDocs2.0/ver1.2/nome_tuo_iphone/”;
+                            </li>
+                            <li>
+                                L'app NON ha modo di leggere, memorizzare, modificare, eliminare o trasmettere gli altri file che hai sul tuo profilo Dropbox, l'app ha accesso alla <font style="text-decoration:underline">SOLA</font> cartella specificata al punto precedente;
+                            </li>
+                            <li>
+                                Se elimini manualmente i tuoi documenti da Dropbox questi <font style="text-decoration:underline">NON</font> verranno eliminati sul tuo device e verranno automaticamente ricaricati su Dropbox alla sincronizzazione successiva;
+                            </li>
+                            <li>
+                                Le operazioni di aggiunta, eliminazione e rinomina dei documenti è consentita solo dall'app;
+                            </li>
+                            <li>
+                                I documenti possono essere visualizzati <font style="text-decoration:underline">SOLO</font> dal tuo <font style="text-decoration:underline">DEVICE</font>, i documenti salvati su Dropbox sono criptati e non visualizzabili;
+                            </li>
+                            <li>
+                                I tuoi documenti possono essere decriptati e quindi visualizzati solo dal <font style="text-decoration:underline">TUO</font> device con iDocs. La chiave con cui i tuoi documenti vengono criptati è salvata <font style="text-decoration:underline">SOLO</font> sul <font style="text-decoration:underline">TUO</font> dispositivo e non può essere in alcun modo letta o trasmessa;
+                            </li>
+                            <li>
+                                In ogni caso ti sconsigliamo di manipolare i file direttamente dalla tua cartella Dropbox, se vuoi aggiungere, eliminare o rinominare un documento fallo <font style="text-decoration:underline">SOLO</font> dall'app.
+                            </li>
+                        </ol>
+
+
+                    </div>
+
+                    <div style="width: 155px; margin: 12px auto; height: 40px; text-align: center">
+
+                        <button onclick="location.href='home.html'" class="button button_red">
+                            <script>document.write(INDIETRO)</script>
+                        </button>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--
+
+
+
+
+<div style="width: 155px; margin: 12px auto; height: 40px; text-align: center">
+        <button onclick="location.href='index.html'" class="button button_red">
+            <script>document.write(INDIETRO)</script>
+        </button>
+</div>
+-->
+
+
+</body>
+
+<script>
+
+
+    // Wait for device API libraries to load
+    //
+    $(document).ready(function () {
+
+        $("a").click(function (e) {
+            e.preventDefault();
+        });
+
+
+    })
+
+
+</script>
+
+</html>

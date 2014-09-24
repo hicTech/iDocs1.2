@@ -94,7 +94,7 @@
         <div class="ROW" style="height: 25px; color: gray; font-size: 15px; text-align: center" id="c_id">
             <script>document.write(localStorage.getItem('customer_id'));</script>
         </div>
-        <div class="ROW" style="height: 45px; text-align: center;">
+        <div class="ROW" style="height: 30px; text-align: center;">
             <script>
                 document.write('<a style="color:#1fa3ec; text-decoration: underline" href="mailto:info@hictech.com?subject=iDocs1.2 request new psw customer-id:' + localStorage.getItem('customer_id') + '" target="_blank">' + RECUPERA_PASSWORD + '</a>')
             </script>
@@ -107,6 +107,12 @@
                 <font style="font-size: 17px;font-weight: bold">iDocs 1.2<br></font>
                 <script>document.write(LANDING_MASSAGE)</script>
             </div>
+        </div>
+
+        <div class="ROW" style="text-align: center;font-size: 18px; color: grey; height: 60px">
+            <button class="button" onclick="location.href='more_info.html'">
+                <script>document.write(MAGGIORI_INFO)</script>
+            </button>
         </div>
     </div>
 </div>
