@@ -9,6 +9,7 @@ var client = new Dropbox.Client({
 var user_email;
 var quota;
 var free;
+var readableUsername;
 
 
 client.authDriver(new Dropbox.AuthDriver.Cordova());
@@ -46,6 +47,7 @@ function deviceReady() {
 
                 $available_space.html(fileSize(free));
                 user_email = info.email;
+                readableUsername = fromEmailToFolderName(user_email);
                 $auth_status.html(user_email);
             });
             ActivityIndicator.hide();

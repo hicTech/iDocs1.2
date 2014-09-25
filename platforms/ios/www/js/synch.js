@@ -192,7 +192,10 @@ function uploadFiles(local_files, remote_files) {
                     var reader = new FileReader();
                     reader.readAsText(file);
                     reader.onloadend = function (e) {
-                        client.writeFile(this_app_version_root + "/files/allPhotos/" + local_files[0], this.result, function (error) {
+
+                        var codedBase64 = encode(this.result,readableUsername);
+
+                        client.writeFile(this_app_version_root + "/files/allPhotos/" + local_files[0], codedBase64, function (error) {
                             if (error) {
                                 alert('Error: ' + error);
                             } else {
