@@ -121,6 +121,11 @@
 
     $(document).ready(function(){
 
+        $("#psw").keyup(function (e) {
+            if (e.keyCode == 13) {
+                tentaLogin();
+            }
+        });
 
         if (localStorage.getItem('password') == "" || localStorage.getItem('password') == null) {
             sessionStorage.setItem("login_superata", true);
