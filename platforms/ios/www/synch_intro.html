@@ -41,7 +41,7 @@
 
 <div class="dropbox_logo"></div>
 
-<div class="landing_amessage" style="margin: 0px auto">
+<div class="landing_amessage" style="margin: 0px auto" onclick="startBrowser()">
     <script>document.write(CONOSCI_DROPBOX)</script>
     </br>
 
@@ -78,7 +78,46 @@
             }
         });
 
-    })
+    });
+
+    // Global InAppBrowser reference
+    var iabRef = null;
+
+    function iabLoadStart(event) {
+        //alert(event.type + ' - ' + event.url);
+    }
+
+    function iabLoadStop(event) {
+        //alert(event.type + ' - ' + event.url);
+    }
+
+    function iabLoadError(event) {
+        //alert(event.type + ' - ' + event.message);
+    }
+
+    function iabClose(event) {
+        //alert(event.type);
+        //iabRef.removeEventListener('loadstart', iabLoadStart);
+        //iabRef.removeEventListener('loadstop', iabLoadStop);
+        //iabRef.removeEventListener('loaderror', iabLoadError);
+        //iabRef.removeEventListener('exit', iabClose);
+    }
+
+    // device APIs are available
+    //
+    function startBrowser() {
+        iabRef = window.open('http://www.dropbox.com', '_blank', 'location=yes');
+        iabRef.addEventListener('loadstart', iabLoadStart);
+        iabRef.addEventListener('loadstop', iabLoadStop);
+        iabRef.removeEventListener('loaderror', iabLoadError);
+        iabRef.addEventListener('exit', iabClose);
+    }
+
+
+    document.addEventListener("deviceready", checkConnection, false);
+
+
+
 
 
 </script>
